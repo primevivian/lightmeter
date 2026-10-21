@@ -1,9 +1,13 @@
 # lightmeter
 An open hardware light meter designed for analog photography based on the TEMT6000 light sensor and an ATMEGA32u4.
 
-### Current Iteration: Revision 1
-<img src="https://imgur.com/pm2ZVXc.png" width=40% height=40%>
-Image of prototype.
+<p>
+  <img src="images/front_S.jpg" alt="Shutter Priority mode" width="32%">
+  <img src="images/front_start.jpg" alt="Mode select start screen" width="32%">
+  <img src="images/front_A.jpg" alt="Aperture Priority mode" width="32%">
+</p>
+
+Images of prototype.
 
 ### Project Goals
 * Build a compact, accurate handheld light meter.
