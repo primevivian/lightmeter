@@ -60,16 +60,21 @@ void setup() {
   }
 
   // Mode select: - for Shutter Priority, + for Aperture Priority
+  display.drawRect(0, 0, 128, 64, WHITE); // Container frame
+  display.drawFastHLine(0, 13, 128, WHITE); // Title divider
   display.setTextColor(WHITE);
+  display.setTextSize(1);
+  display.setCursor(34, 3); // Centered in title bar, 2px gap above and below
+  display.print("lightmeter");
   display.setTextSize(4);
-  display.setCursor(0, 16);
+  display.setCursor(17, 24);
   display.print("S");
-  display.setCursor(104, 16);
+  display.setCursor(91, 24);
   display.print("A");
   display.setTextSize(3);
-  display.setCursor(38, 20);
+  display.setCursor(45, 28);
   display.print("<");
-  display.setCursor(74, 20);
+  display.setCursor(68, 28);
   display.print(">");
   display.display();
 
