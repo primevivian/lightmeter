@@ -8,12 +8,15 @@
 - 128x64 I2C OLED Display
 - 3x 6mm Button Switches
 
-## Details:
-Code only has apperture priority mode.
-Aperture is changed by buttons on the left.
-Reading is taken with button in the right.
-IEV & LUX are updated every 75ms.
+## Pinout:
+| Pro Micro Pin | Connected To | Notes |
+|---|---|---|
+| 15 | Measure button | Other leg to GND (internal pull-up) |
+| 14 | + button | Other leg to GND (internal pull-up) |
+| 16 | - button | Other leg to GND (internal pull-up) |
+| A1 | TEMT6000 SIG | Breakout has the 10k resistor onboard |
+| 2 (SDA) | OLED SDA | I2C address 0x3C |
+| 3 (SCL) | OLED SCL | |
+| VCC | TEMT6000 VCC, OLED VCC | Code assumes a 5V reference for A1 |
+| GND | TEMT6000 GND, OLED GND, all buttons | |
 
-IEV is a slightly modified version of EV to compensate for a more accurate exposure.
-Rounding up after half of the required LUX for the next EV is being read.
-Also this fixed the flickering of a 'borderline' EV.
