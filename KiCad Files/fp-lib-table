@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "BH1750FVI-TR")(type "Eagle")(uri "${KIPRJMOD}/footprint_lib/BH1750FVI-TR.lbr")(options "")(descr ""))
-)

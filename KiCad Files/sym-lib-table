@@ -1,6 +1,0 @@
-(sym_lib_table
-  (lib (name "dw01")(type "KiCad")(uri "${KIPRJMOD}/symbol_lib/dw01.kicad_sym")(options "")(descr ""))
-  (lib (name "fs8205")(type "KiCad")(uri "${KIPRJMOD}/symbol_lib/fs8205.kicad_sym")(options "")(descr ""))
-  (lib (name "tp4056")(type "KiCad")(uri "${KIPRJMOD}/symbol_lib/tp4056.kicad_sym")(options "")(descr ""))
-  (lib (name "BH1750FVI-TR")(type "KiCad")(uri "${KIPRJMOD}/symbol_lib/BH1750FVI-TR.kicad_sym")(options "")(descr ""))
-)
